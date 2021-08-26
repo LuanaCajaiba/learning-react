@@ -78,3 +78,26 @@ components/
 
 
 ```
+
+#3 App.js - é o componente. será nesse arquivo que serão colocadas as alterações
+   index.js - é onde estará a estrutura que serão colocados os componentes
+
+
+#4 criei um novo componente HelloWorld - esse componente irá mostrar em tela a mensagem Hello World
+
+#5 tentei criar dois "export default function" num mesmo componente e bugou
+
+#6 aparentemente, não podem ser utilizados dois elementos html no return
+
+#7 tentei entender melhorar a imagem svg (Scalable vextor graphics = Gráficos Vetoriais Escaláveis )
+
+#8 retirei a linha de código ( <img src={logo} className="App-logo" alt="logo" />) do arquivo src/app.js. 
+
+essa linha de código é responsável por inserir o svg logo na página web
+
+#9 quis colocar uma div na função hello world e parece não funcionar
+
+Acredito que seja o forma da função "export default function...", portanto buscarei mais sobre isso.
+
+
+

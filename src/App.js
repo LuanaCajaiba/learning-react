@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+  
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> oi.
         </p>
         <a
           className="App-link"
@@ -23,3 +23,13 @@ function App() {
 }
 
 export default App;
+
+
+
+/*export =  tem por objetivo expôr os conteúdos App para outros módulos
+  
+  default = informa que se você está importando aquele módulo e não especificou explicitamente
+  qual ou quais conteúdos está importando, todos os conteúdos do módulo serão importados.
+  Por isso, cada módulo só admite um default
+
+*/
