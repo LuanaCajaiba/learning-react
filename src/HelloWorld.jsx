@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-//essa é uma forma de demonstrar o Hello World de maneira estática
+/* //essa é uma forma de demonstrar o Hello World de maneira estática
 export default function HelloWorld() {
     return(
         <div className="Hello-World">
@@ -12,8 +12,14 @@ export default function HelloWorld() {
     
 
     );   
-}
+} */
 
+function HelloWorld() {
+    return( <h1>Hello</h1>)
+        
+    }
+
+export default HelloWorld;
 
 
 /*essa é a forma de demonstrar o Hello World de maneira dinâmica

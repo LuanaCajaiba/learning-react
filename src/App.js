@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.svg';  //não está em uso, pois excluí da aplicação. mas deixo a linha de código para lembrar como importar img
 import './App.css';
 
 function App() {
@@ -21,6 +21,8 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
 

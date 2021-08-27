@@ -99,5 +99,66 @@ essa linha de código é responsável por inserir o svg logo na página web
 
 Acredito que seja o forma da função "export default function...", portanto buscarei mais sobre isso.
 
+26/08/2021
+
+#10 Aprendendo sobre components a partir da documentação reactjs.org
+
+- Componentes do React também podem ser definidos subclassificando:
+
+React.Component ou
+React.PureComponent
+
+- Os componentes do React também podem ser definidos como funções que podem ser agrupadas
+
+React.memo
+
+- É recomendado utilizar JSX para descrição de aparência de sua Interface de Usuário.
+
+Criando Elementos:
+
+createElement()
+createFactory()
+
+Transformando Elementos, quando se quer manipular elementos
+
+CloneElement()
+isValidElement()
+React.Children()
+
+Fragmentos, quando se quer renderizar vários elementos sem um invólucro
+
+React.Fragment
+
+Refs, quando se quer mexer com elementos nativos de forma imperativa
+
+React.createRef
+React.forwardRef
+
+Suspense, quando se quer esperar algo antes da renderização. É, no momento, só é usando para carregar dinamicamente com React.lazy
+
+React.lazy
+React.Suspense
+
+Hooks, quando se quer usar o estado e outros recursos do React sem escrever uma classe. 
+
+Hooks básicos
+
+  useState
+  useEffect
+  useContext
+
+Hooks adicionais
+
+  useReducer
+  useCallback
+  useMemo
+  useRef
+  useImperativeHandle
+  useLayoutEffect
+  useDebugValue
 
 
+
+#11 Resolvi apagar o HelloWorld.js, pois ainda não sei resolver o bug que estava dando
+
+#12 criando diversos componentes e encadeando eles
