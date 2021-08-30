@@ -162,3 +162,7 @@ Hooks adicionais
 #11 Resolvi apagar o HelloWorld.js, pois ainda não sei resolver o bug que estava dando
 
 #12 criando diversos componentes e encadeando eles
+
+
+#13 um passo atrás - Estudando JavasCript
+
